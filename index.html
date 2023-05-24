@@ -1,0 +1,30 @@
+<!--Développé par Benstitou Sofiane-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>temps</title>
+</head>
+<body>
+    <header>
+        <h1>temps⌚ - fait avec 💙 par Benstitou Sofiane</h1>
+    </header>
+    <main>
+        <article>
+            <p id="time">00h:00m:00s</p>
+        </article>
+    </main>
+    <footer>
+        <input type="number" id="getHeure" placeholder="heure(s)"min="0" max="23">
+        <input type="number" id="getMinute" placeholder="minute(s)" min="0" max="59">
+        <input type="number" id="getSeconde" placeholder="seconde(s)" min="0" max="59">
+        <br><br>
+        <button onclick="dilatation()">lancer</button>
+        <button onclick="pause()">pause</button>
+        <button onclick="reset()">reset</button> 
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
