@@ -46,12 +46,15 @@ function temps(){
     }
     if (heure < 0){
         heure = 0;
+        reset()
     }
     if (minute < 0){
         heure = 0;
+        reset()
     }
     if (seconde < 0){
         seconde = 0;
+        reset()
     }
     if (seconde == 0 && minute == 0 && heure == 0){
         pause();
