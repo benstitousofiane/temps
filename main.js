@@ -106,9 +106,9 @@ function pause(){
 
 function reset(){
     pause();
-    heureElement.value = '0';
-    minuteElement.value = '0';
-    secondeElement.value = '0';
+    heureElement.value = '';
+    minuteElement.value = '';
+    secondeElement.value = '';
 
     heure = 0;
     minute = 0;
