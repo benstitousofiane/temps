@@ -1,30 +1,27 @@
-<!--Développé par Benstitou Sofiane-->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>temps</title>
+    <title>temps - accueil</title>
 </head>
 <body>
     <header>
-        <h1>temps⌚ - fait avec 💙 par Benstitou Sofiane</h1>
+        <a href="index.html">
+            <h1>temps⌚/🏠 - fait avec 💙 par Benstitou Sofiane</h1>
+        </a>
     </header>
-    <main>
-        <article>
-            <p id="time">00h:00m:00s</p>
-        </article>
+    <main class="indexPage">
+        <h1>Choisissez votre application</h1>
+        <nav>
+            <a href="pages/minuteur.html" class="goApp">
+                ⏲️ <br> minuteur
+            </a>
+            <a href="pages/chronometre.html" class="goApp">
+                ⏱️ <br> chronometre
+            </a>
+        </nav>
     </main>
-    <footer>
-        <input type="number" id="getHeure" placeholder="heure(s)"min="0" max="23">
-        <input type="number" id="getMinute" placeholder="minute(s)" min="0" max="59">
-        <input type="number" id="getSeconde" placeholder="seconde(s)" min="0" max="59">
-        <br><br>
-        <button onclick="dilatation()">lancer</button>
-        <button onclick="pause()">pause</button>
-        <button onclick="reset()">reset</button> 
-    </footer>
-
-    <script src="main.js"></script>
+    
 </body>
 </html>

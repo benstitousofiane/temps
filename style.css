@@ -15,6 +15,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* App part */
 header{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     text-align: center;
@@ -85,4 +86,56 @@ footer button{
 
 footer button:hover{
     background-color: #dbe4ff;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover{
+    background-color: #64b1d9;
+    color: #dbe4ff;
+}
+
+/* index part */
+
+main h1{
+    margin-top: 65px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.goApp{
+    margin-top: 75px;
+    text-decoration: none;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-color: #4618c8;
+    color: white;
+    font-size: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.goApp:hover{
+    color: #2c2d38;
+    background-color: #dbe4ff;
+}
+
+main.indexPage{
+    flex-grow: 0;
+    padding-bottom: 60px;
 }
